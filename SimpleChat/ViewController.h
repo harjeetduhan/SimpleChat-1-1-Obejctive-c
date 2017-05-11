@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)startChatAction:(id)sender;
 
 @end
 

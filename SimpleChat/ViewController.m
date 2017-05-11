@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ChatViewController.h"
 
 @interface ViewController ()
 
@@ -24,4 +25,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)startChatAction:(id)sender
+{
+    ChatViewController *chatView =[self.storyboard instantiateViewControllerWithIdentifier:@"ChatViewController"];
+    [self.navigationController pushViewController:chatView animated:YES];
+}
 @end

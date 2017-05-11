@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A98125711EBE607000B332A0 /* attachment.png in Resources */ = {isa = PBXBuildFile; fileRef = A98125701EBE607000B332A0 /* attachment.png */; };
+		A98125731EBE6FB000B332A0 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A98125721EBE6FB000B332A0 /* left-arrow.png */; };
 		A9B7124C1EBD09E100DCC725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B7124B1EBD09E100DCC725 /* main.m */; };
 		A9B7124F1EBD09E100DCC725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B7124E1EBD09E100DCC725 /* AppDelegate.m */; };
 		A9B712521EBD09E100DCC725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B712511EBD09E100DCC725 /* ViewController.m */; };
@@ -15,6 +17,11 @@
 		A9B7125A1EBD09E100DCC725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B712581EBD09E100DCC725 /* LaunchScreen.storyboard */; };
 		A9B712651EBD09E100DCC725 /* SimpleChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B712641EBD09E100DCC725 /* SimpleChatTests.m */; };
 		A9B712701EBD09E100DCC725 /* SimpleChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B7126F1EBD09E100DCC725 /* SimpleChatUITests.m */; };
+		A9B7127F1EBD0B6E00DCC725 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B7127E1EBD0B6E00DCC725 /* ChatViewController.m */; };
+		A9B712811EBD10E500DCC725 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = A9B712801EBD10E500DCC725 /* send.png */; };
+		A9B712841EBD15A500DCC725 /* CellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B712831EBD15A500DCC725 /* CellTableView.m */; };
+		A9B712871EBD4C8100DCC725 /* reciver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9B712851EBD4C8100DCC725 /* reciver.jpeg */; };
+		A9B712881EBD4C8100DCC725 /* sender.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A9B712861EBD4C8100DCC725 /* sender.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A98125701EBE607000B332A0 /* attachment.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attachment.png; sourceTree = "<group>"; };
+		A98125721EBE6FB000B332A0 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
 		A9B712471EBD09E100DCC725 /* SimpleChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B7124B1EBD09E100DCC725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9B7124D1EBD09E100DCC725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,13 @@
 		A9B7126B1EBD09E100DCC725 /* SimpleChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B7126F1EBD09E100DCC725 /* SimpleChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleChatUITests.m; sourceTree = "<group>"; };
 		A9B712711EBD09E100DCC725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B7127D1EBD0B6E00DCC725 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		A9B7127E1EBD0B6E00DCC725 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		A9B712801EBD10E500DCC725 /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
+		A9B712821EBD15A500DCC725 /* CellTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellTableView.h; sourceTree = "<group>"; };
+		A9B712831EBD15A500DCC725 /* CellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellTableView.m; sourceTree = "<group>"; };
+		A9B712851EBD4C8100DCC725 /* reciver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reciver.jpeg; sourceTree = "<group>"; };
+		A9B712861EBD4C8100DCC725 /* sender.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sender.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,11 @@
 		A9B712491EBD09E100DCC725 /* SimpleChat */ = {
 			isa = PBXGroup;
 			children = (
+				A98125721EBE6FB000B332A0 /* left-arrow.png */,
+				A98125701EBE607000B332A0 /* attachment.png */,
+				A9B712851EBD4C8100DCC725 /* reciver.jpeg */,
+				A9B712861EBD4C8100DCC725 /* sender.jpeg */,
+				A9B712801EBD10E500DCC725 /* send.png */,
 				A9B7124D1EBD09E100DCC725 /* AppDelegate.h */,
 				A9B7124E1EBD09E100DCC725 /* AppDelegate.m */,
 				A9B712501EBD09E100DCC725 /* ViewController.h */,
@@ -110,6 +131,10 @@
 				A9B712581EBD09E100DCC725 /* LaunchScreen.storyboard */,
 				A9B7125B1EBD09E100DCC725 /* Info.plist */,
 				A9B7124A1EBD09E100DCC725 /* Supporting Files */,
+				A9B7127D1EBD0B6E00DCC725 /* ChatViewController.h */,
+				A9B7127E1EBD0B6E00DCC725 /* ChatViewController.m */,
+				A9B712821EBD15A500DCC725 /* CellTableView.h */,
+				A9B712831EBD15A500DCC725 /* CellTableView.m */,
 			);
 			path = SimpleChat;
 			sourceTree = "<group>";
@@ -244,6 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9B7125A1EBD09E100DCC725 /* LaunchScreen.storyboard in Resources */,
+				A9B712871EBD4C8100DCC725 /* reciver.jpeg in Resources */,
+				A9B712881EBD4C8100DCC725 /* sender.jpeg in Resources */,
+				A98125711EBE607000B332A0 /* attachment.png in Resources */,
+				A98125731EBE6FB000B332A0 /* left-arrow.png in Resources */,
+				A9B712811EBD10E500DCC725 /* send.png in Resources */,
 				A9B712571EBD09E100DCC725 /* Assets.xcassets in Resources */,
 				A9B712551EBD09E100DCC725 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +302,8 @@
 			files = (
 				A9B712521EBD09E100DCC725 /* ViewController.m in Sources */,
 				A9B7124F1EBD09E100DCC725 /* AppDelegate.m in Sources */,
+				A9B712841EBD15A500DCC725 /* CellTableView.m in Sources */,
+				A9B7127F1EBD0B6E00DCC725 /* ChatViewController.m in Sources */,
 				A9B7124C1EBD09E100DCC725 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +528,7 @@
 				A9B712761EBD09E100DCC725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B712771EBD09E100DCC725 /* Build configuration list for PBXNativeTarget "SimpleChatTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				A9B712791EBD09E100DCC725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9B7127A1EBD09E100DCC725 /* Build configuration list for PBXNativeTarget "SimpleChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				A9B7127C1EBD09E100DCC725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
